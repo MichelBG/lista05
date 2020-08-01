@@ -11,15 +11,16 @@ public class Calculos {
     }
 
 
-    public double calcular(double altura, double base){
+    public double calcular(int altura, double base){
 
-        return altura * base;
+        return altura * base / 2;
 
     }
 
-    public double calcular(double lado, int lado2){
+    public double calcular(double lado,double lados){
+        
 
-        return lado * lado2/2;
+        return lado * lados;
 
 
     }
